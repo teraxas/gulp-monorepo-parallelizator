@@ -42,3 +42,5 @@ if (buildAllSeriesNodes.length !== 5) {
         throw new Error('Incorrect results!')
     }
 });
+
+console.log('OK!');
