@@ -52,7 +52,7 @@ const buildProjects = [
 
 // Setup build tasks for each project - in this case - run Angular CLI build as child process
 buildProjects.forEach(v => {
-    gulp.task(v.task, () => exec(`npm run ng -- build ${v.name}`))
+    gulp.task(v.task, () => exe(`npm run ng -- build ${v.name}`))
 });
 
 // Setup 'buildAll' task which runs all non-dependant builds in parallel 
