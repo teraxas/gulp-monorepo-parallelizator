@@ -1,6 +1,6 @@
 const gulp = require('gulp');
 
-function assertTruthy(errorText, object, ...properties) {
+function assertTruthy(object, errorText, ...properties) {
     if (!object) {
         throw new Error(errorText);
     }
@@ -18,12 +18,12 @@ function assertTruthy(errorText, object, ...properties) {
  * @argument projects Array of { task: string, folder: string }, where folder should contain package.json file
  * @returns gulp.series TaskFunction with paralelizations inside
  */
-exports.default = (projects) => {
+module.exports = (projects) => {
     const src = projects.map(v => {
-        assertTruthy(v, 'folder', 'task');
+        assertTruthy(v, 'Illegal projects list', 'folder', 'task');
         const r = Object.assign({}, v);
         r.package = require(`${r.folder}/package.json`);
-        assertTruthy(r.package, 'packageName');
+        assertTruthy(r.package, 'Illegal package.json file', 'name');
         r.packageName = r.package.name;
         return r;
     });

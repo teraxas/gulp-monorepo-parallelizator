@@ -17,7 +17,6 @@ module.exports = {
         'array-bracket-newline': 'error',
         'array-bracket-spacing': 'error',
         'array-callback-return': 'error',
-        'array-element-newline': 'error',
         'arrow-body-style': 'error',
         'arrow-parens': 'off',
         'arrow-spacing': [
@@ -37,7 +36,6 @@ module.exports = {
         'camelcase': 'error',
         'capitalized-comments': 'error',
         'class-methods-use-this': 'error',
-        'comma-dangle': 'error',
         'comma-spacing': [
             'error',
             {
@@ -218,8 +216,6 @@ module.exports = {
         'no-with': 'error',
         'nonblock-statement-body-position': 'error',
         'object-curly-newline': 'error',
-        'object-curly-spacing': 'error',
-        'object-property-newline': 'error',
         'object-shorthand': 'error',
         'one-var': 'off',
         'one-var-declaration-per-line': 'error',
@@ -241,7 +237,6 @@ module.exports = {
         'prefer-rest-params': 'error',
         'prefer-spread': 'error',
         'prefer-template': 'error',
-        'quote-props': 'error',
         'quotes': [
             'error',
             'single'
@@ -262,7 +257,6 @@ module.exports = {
             'last'
         ],
         'sort-imports': 'error',
-        'sort-keys': 'error',
         'sort-vars': 'error',
         'space-before-blocks': 'error',
         'space-before-function-paren': 'off',

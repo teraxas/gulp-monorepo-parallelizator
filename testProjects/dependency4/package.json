@@ -1,0 +1,9 @@
+{
+  "name": "dependency4",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^7.1.0",
+    "@angular/core": "^7.1.0",
+    "dependency5": "0.0.1"
+  }
+}
