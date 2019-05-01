@@ -1,5 +1,7 @@
 # Gulp monorepo parallelizator
 
+[![npm version](https://badge.fury.io/js/gulp-monorepo-parallelizator.svg)](https://badge.fury.io/js/gulp-monorepo-parallelizator)
+
 This utility allows automate paralelization of build and other actions in repositories with multiple projects depending from each other. 
 
 Example output of `gulp --tasks` for such setup would look like this:
