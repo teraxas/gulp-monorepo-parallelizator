@@ -1,6 +1,6 @@
 {
   "name": "gulp-monorepo-parallelizator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Utility for generating a paralelized gulp task for a set of depending projects",
   "main": "index.js",
   "scripts": {
