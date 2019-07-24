@@ -6,9 +6,10 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint *.js",
-    "test": "node test.js",
+    "test": "npm run test:simple && npm run test:gulp",
     "test:gulp": "gulp",
-    "prepublish": "npm run lint && npm run test && npm run test:gulp"
+    "test:simple": "node test.js",
+    "prepublish": "npm run test && npm run test:gulp"
   },
   "author": "Karolis Jocevičius",
   "repository": {
