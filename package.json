@@ -1,15 +1,14 @@
 {
   "name": "gulp-monorepo-parallelizator",
   "displayName": "Gulp Monorepo Parallelizator",
-  "version": "1.0.3",
+  "version": "0.0.0-SEMANTIC-RELEASE",
   "description": "Utility for generating a paralelized gulp task for a set of depending projects",
   "main": "index.js",
   "scripts": {
     "lint": "eslint *.js",
     "test": "npm run test:simple && npm run test:gulp",
     "test:gulp": "gulp",
-    "test:simple": "node test.js",
-    "prepublish": "npm run test && npm run test:gulp"
+    "test:simple": "node test.js"
   },
   "author": "Karolis Jocevičius",
   "repository": {
@@ -27,6 +26,7 @@
   },
   "devDependencies": {
     "eslint": "^6.1.0",
-    "gulp": "^4.0.1"
+    "gulp": "^4.0.1",
+    "semantic-release": "^15.13.19"
   }
 }

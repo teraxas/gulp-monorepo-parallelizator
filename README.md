@@ -1,5 +1,6 @@
 # Gulp monorepo parallelizator
 
+[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 [![npm version](https://badge.fury.io/js/gulp-monorepo-parallelizator.svg)](https://badge.fury.io/js/gulp-monorepo-parallelizator)
 
 This utility allows automate paralelization of build and other actions in repositories with multiple projects depending from each other. 
@@ -59,6 +60,17 @@ buildProjects.forEach(v => {
 gulp.task('buildAll', gulpParallel(buildProjects));
 
 ```
+
+## Released semantically
+
+See here: https://semantic-release.gitbook.io/semantic-release/
+
+Commit format:
+
+* fix(pencil): Patch Release
+* feat(pencil): Minor Feature Release
+* perf(pencil): Major Breaking Release
+* BREAKING CHANGE: Major Breaking Release
 
 ## Created by
 
