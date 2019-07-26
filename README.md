@@ -74,4 +74,4 @@ Commit format:
 
 ## Created by
 
-Karolis Jocevičius - [Twitter](https://twitter.com/kjocevicius)
+Karolis Jocevičius - [Twitter](https://twitter.com/kjocevicius), [Github](https://github.com/teraxas)
