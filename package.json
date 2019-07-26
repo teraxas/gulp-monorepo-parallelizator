@@ -8,7 +8,8 @@
     "lint": "eslint *.js",
     "test": "npm run test:simple && npm run test:gulp",
     "test:gulp": "gulp",
-    "test:simple": "node test.js"
+    "test:simple": "node test.js",
+    "semantic-release": "semantic-release"
   },
   "author": "Karolis Jocevičius",
   "repository": {
