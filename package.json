@@ -28,6 +28,6 @@
   "devDependencies": {
     "eslint": "^6.1.0",
     "gulp": "^4.0.1",
-    "semantic-release": "^15.13.19"
+    "semantic-release": "^17.2.3"
   }
 }
